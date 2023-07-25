@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 50px;
+    align-items: center;
+}
+
+:root{
+    --red: #d01c28;
+    --grey: #2e2e2e;
+}
+
+button{
+    all: unset;
+    padding: 6px 16px;
+    background: var(--red);
+    height: 24px;
+    font-weight: 500;
+    color:white;
+}
+
+
+nav ul{
+    display:flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.shoes{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    height: calc(100vh-50px);
+}
+
+.shoes h1 {
+    font-weight: 800;
+    line-height: 90px;
+    font-size: 96px;
+}
+
+.shoes-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.shoes p{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--grey);
+}
+
+.shoes-btn{
+    display: flex;
+    gap: 40px;
+}
+
+.second-btn{
+    background-color: transparent;
+    color: var(--grey);
+    border: 1px solid gray;
+}
+
+.shopping{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.brand-icons{
+    display: flex;
+    gap: 20px;
+}
